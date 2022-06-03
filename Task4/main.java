@@ -25,25 +25,6 @@ class Lingkaran implements bangundatar {
         return kll;
     }
 
-    public class Persegi extends Main{
-        double s;
-
-        public void setPersegi(double sisi){
-            this.s = sisi;
-        }
-
-        public double luasPersegi(){
-            double luas;
-            luas = this.s * this.s;
-            return luas;
-        }
-
-        public double kllPersegi(){
-            double kll;
-            kll = this.s * 4;
-            return kll;
-        }
-    }
 }
 class Persegi implements bangundatar{
     double s;
