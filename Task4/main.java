@@ -136,10 +136,22 @@ public class Main {
 
                     Lingkaran L = new Lingkaran();
                     L.setLingkaran(j);
-                    System.out.print("Hasil Luas Lingkaran : ");
-                    System.out.println(L.luas());
-                    System.out.print("Hasil Keliling Lingkaran : ");
-                    System.out.println(L.keliling());
+                    System.out.println("Pilih mau 1.Luas atau 2.Keliling : ");
+                    String LK1= myObj.nextLine();
+                    if(LK1.equals("1")){
+                        System.out.print("Hasil Luas Lingkaran : ");
+                        System.out.println(L.luas());
+                    }
+                    else if(LK1.equals("2")){
+                        System.out.print("Hasil Keliling Lingkaran : ");
+                        System.out.println(L.keliling());
+                    }
+                    else{
+                        System.out.print("Hasil Luas Lingkaran : ");
+                        System.out.println(L.luas());
+                        System.out.print("Hasil Keliling Lingkaran : ");
+                        System.out.println(L.keliling());
+                    }
                     break;
                 case 2:
                     double s;
@@ -149,11 +161,21 @@ public class Main {
 
                     Persegi P = new Persegi();
                     P.setPersegi(s);
-
-                    System.out.print("Hasil Luas Persegi : ");
-                    System.out.println(P.luas());
-                    System.out.print("Hasil Keliling Persegi : ");
-                    System.out.println(P.keliling());
+                    System.out.println("Pilih mau 1.Luas atau 2.Keliling : ");
+                    String LK2= myObj.nextLine();
+                    if(LK2.equals("1")){
+                        System.out.print("Hasil Luas Persegi : ");
+                        System.out.println(P.luas());
+                    } else if (LK2.equals("2")) {
+                        System.out.print("Hasil Keliling Persegi : ");
+                        System.out.println(P.keliling());
+                    }
+                    else {
+                        System.out.print("Hasil Luas Persegi : ");
+                        System.out.println(P.luas());
+                        System.out.print("Hasil Keliling Persegi : ");
+                        System.out.println(P.keliling());
+                    }
                     break;
 
                 case 3:
@@ -167,11 +189,22 @@ public class Main {
 
                     Persegi_Panjang PP = new Persegi_Panjang();
                     PP.setPersegi_Panjang(p, l);
-
-                    System.out.print("Hasil Luas Persegi Panjang : ");
-                    System.out.println(PP.luas());
-                    System.out.print("Hasil Keliling Persegi Panjang : ");
-                    System.out.println(PP.keliling());
+                    System.out.println("Pilih mau 1.Luas atau 2.Keliling : ");
+                    String LK3= myObj.nextLine();
+                    if(LK3.equals("1")){
+                        System.out.print("Hasil Luas Persegi Panjang : ");
+                        System.out.println(PP.luas());
+                    }
+                    else if (LK3.equals("2")) {
+                        System.out.print("Hasil Keliling Persegi Panjang : ");
+                        System.out.println(PP.keliling());
+                    }
+                    else {
+                        System.out.print("Hasil Luas Persegi Panjang : ");
+                        System.out.println(PP.luas());
+                        System.out.print("Hasil Keliling Persegi Panjang : ");
+                        System.out.println(PP.keliling());
+                    }
                     break;
 
                 case 4:
@@ -185,11 +218,22 @@ public class Main {
 
                     Segitiga S = new Segitiga();
                     S.setSegitiga(a, t);
-
-                    System.out.print("Hasil Luas Segitiga : ");
-                    System.out.println(S.luas());
-                    System.out.print("Hasil Keliling Segitiga : ");
-                    System.out.println(S.keliling());
+                    System.out.println("Pilih mau 1.Luas atau 2.Keliling : ");
+                    String LK4= myObj.nextLine();
+                    if(LK4.equals("1")){
+                        System.out.print("Hasil Luas Segitiga : ");
+                        System.out.println(S.luas());
+                    }
+                    else if (LK4.equals("2")){
+                        System.out.print("Hasil Keliling Segitiga : ");
+                        System.out.println(S.keliling());
+                    }
+                    else {
+                        System.out.print("Hasil Luas Segitiga : ");
+                        System.out.println(S.luas());
+                        System.out.print("Hasil Keliling Segitiga : ");
+                        System.out.println(S.keliling());
+                    }
                     break;
 
 
